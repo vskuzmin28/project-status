@@ -5,6 +5,97 @@ block variables
 
 block content
 
-	// BEGIN BLOCK
+	// BEGIN CONTAINER
 
-	// END BLOCK
+	.container
+		.title-page
+			| UPD статуса проекта
+		.main-info 
+			.main-info__column
+				.main-info__block
+					.main-info__title 
+						| Проект:
+					.main-info__text
+						| Ист Медикал Групп
+					.main-info__title 
+						| Сдача проекта:
+					.main-info__text
+						| 14 июня
+
+				.main-info__block
+					.main-info__title 
+						| Команда:
+					.main-info__text
+						| 8 человек
+					.main-info__title 
+						| Длительность:
+					.main-info__text
+						| 8 месяцев
+
+			.main-info__column
+				.main-info__block
+					.main-info__title 
+						| Сроки:
+					.main-info__text
+						| Впритык по дедлайнам
+					.main-info__title 
+						| Риск не уложиться:
+					.main-info__text
+						| ±40%
+					.progress.main-info__progress
+						.progress__line
+
+				.main-info__block
+					.main-info__title 
+						| Бюджет:
+					.main-info__text
+						| Все ок, главное не факапить
+					.main-info__title 
+						| Риск не уложиться:
+					.main-info__text
+						|  ±15%
+					.progress.main-info__progress
+						.progress__line
+
+		.block
+			.title.block__title 
+				| ----- Упрощенная дорожная карта:
+
+			.block__content
+				.block__column 
+
+				.block__column 
+					.calendar.block__calendar 
+
+		.block
+			.title.block__title 
+				| ----- Риски проекта:
+
+			.block__content
+				.block__column 
+					.block__title 
+						| Текущие проблемы и риски
+					ul.block__list 
+						li.block__item 
+							| Будет много багов (ошибки тестирования)
+						li.block__item 
+							| Перекидывание задач (бэк - фронт)
+						li.block__item 
+							| Отсутствие контента (клиент)
+						li.block__item 
+							| Интеграция (затуп)
+
+				.block__column 
+					.block__title 
+						| Методы предотвращения:
+					ul.block__list 
+						li.block__item 
+							| Не править рандомные куски кода (“тут некрасиво, исправлю”).
+						li.block__item 
+							| Мелкая задача фронта, но нужен бэк? - помоги, ты просто не выпьешь 1 чай или сделаешь это позже. Пни менеджера, если нужно.
+						li.block__item 
+							|  Менеджеры способствуют клиенту (шаблоны, список контента и тд).
+						li.block__item 
+							| Задавать впоросы, если не уверен (менеджерам и друг другу). Делать по задаче и документации.
+
+	// END CONTAINER
