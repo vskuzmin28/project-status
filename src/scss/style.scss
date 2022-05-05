@@ -25,7 +25,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
-	color: $color-white;
+	color: $color-black;
 }
 
 ol, ul {
@@ -78,3 +78,51 @@ input[type=number] {
 	opacity: 1;
 }
 
+.container {
+	margin: 20px auto;
+	width: 616px;
+}
+
+.title-page {
+	margin-bottom: 20px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.main-info {
+	margin-bottom: 40px;
+	padding: 12px 18px;
+	display: flex;
+	background: $color-gray;
+	border-radius: 4px;
+
+	&__column {
+		width: 100%;
+	}
+
+	&__block {
+		&:last-child {
+			margin-top: 20px;
+		}
+	}
+
+	&__field {
+		display: flex;
+		flex-direction: row;
+		font-size: 14px;
+	}
+
+	&__title {
+		margin-right: 4px;
+		font-weight: bold;
+	}
+}
+
+.block {
+	&__title {
+		margin-bottom: 20px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+}
